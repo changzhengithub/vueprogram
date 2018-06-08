@@ -1,0 +1,8 @@
+1.下载node.js并安装
+2.桌面随便建立一个文件夹，打开，按住shift键并鼠标右击，找到“在此打开命令窗口”进去，或者window+R 输入cmd进入命令提示符，cd进入此文件夹
+3.在命令提示符输入 npm i npm 安装npm
+4. npm i webpack -g 这里webpack可能出现版本问题，注意版本，可以安装 npm i webpack@版本号  
+5. npm i webpack-cli -g
+6. npm i vue-cli -g
+7. npm run dev 运行项目
+8. 在网页输入命令行最后出现的地址

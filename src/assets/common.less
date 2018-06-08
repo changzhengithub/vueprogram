@@ -1,0 +1,15 @@
+@color:#ff0000;
+@rem:75rem;
+.font-dpr(@fontSize){
+     font-size: @fontSize;
+    [data-dpr="2"] & {
+        font-size: @fontSize * 2;
+    }
+    [data-dpr="3"] & {
+        font-size: @fontSize * 3;
+    }
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
